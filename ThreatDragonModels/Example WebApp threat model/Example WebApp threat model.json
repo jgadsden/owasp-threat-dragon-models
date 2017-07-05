@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "title": "Example WebApp threat model",
+    "owner": "The pen test monkey",
+    "description": "Basic web application used as an example and to compare with other threat model tools"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Jon Gadsden"
+      }
+    ],
+    "diagrams": [],
+    "reviewer": "The beady eye"
+  }
+}
