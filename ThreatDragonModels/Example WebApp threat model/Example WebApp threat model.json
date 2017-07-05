@@ -10,7 +10,13 @@
         "name": "Jon Gadsden"
       }
     ],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "title": "WebApp_example",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
     "reviewer": "The beady eye"
   }
 }
