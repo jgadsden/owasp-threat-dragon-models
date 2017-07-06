@@ -36,7 +36,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "privileged user"
+                  "text": "admin user"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -76,8 +76,8 @@
                 "height": 100
               },
               "position": {
-                "x": 554,
-                "y": 158
+                "x": 553,
+                "y": 156
               },
               "angle": 0,
               "id": "de63f6a0-31fa-40ac-ac13-51a0acf5d26a",
@@ -181,7 +181,12 @@
               "target": {
                 "id": "9d178429-9c9c-4897-ab95-6a828e5a122c"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 599,
+                  "y": 324
+                }
+              ],
               "id": "a02cb964-150f-403b-a163-a52892ba357d",
               "labels": [
                 {
