@@ -275,6 +275,8 @@
               ],
               "z": 11,
               "hasOpenThreats": false,
+              "protocol": "HTTP",
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -314,6 +316,8 @@
               ],
               "z": 12,
               "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "protocol": "HTTP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
