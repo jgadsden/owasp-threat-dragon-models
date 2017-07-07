@@ -151,8 +151,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 279,
-                "y": 289
+                "x": 300,
+                "y": 521
               },
               "target": {
                 "x": 699,
@@ -275,6 +275,8 @@
               ],
               "z": 11,
               "hasOpenThreats": false,
+              "protocol": "HTTP",
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -314,6 +316,8 @@
               ],
               "z": 12,
               "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "protocol": "HTTP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -326,7 +330,7 @@
           ]
         },
         "size": {
-          "height": 1497.888916015625,
+          "height": 1978.9525146484375,
           "width": 965
         }
       }
