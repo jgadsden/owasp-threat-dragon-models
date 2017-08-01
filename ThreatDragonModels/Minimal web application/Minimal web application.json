@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "title": "Minimal web application",
+    "owner": "The owner",
+    "description": "Used to start testing mongoDB"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "jgadsden"
+      },
+      {
+        "name": "somebody_else"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Minimal web application",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      },
+      {
+        "title": "Another web application page",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
+      }
+    ],
+    "reviewer": "The reviewer"
+  }
+}
