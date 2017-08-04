@@ -29,14 +29,19 @@
               "target": {
                 "id": "becb5fa0-f204-4de8-93a4-1d896b74e399"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 245,
+                  "y": 146
+                }
+              ],
               "id": "32f52f14-a409-4af9-870b-08a2dbe21d8e",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 0",
+                      "text": "protocol stack",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -73,7 +78,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "protected\nprocess"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -88,14 +93,21 @@
               },
               "position": {
                 "x": 1,
-                "y": 112
+                "y": 114
               },
               "angle": 0,
               "id": "a92ced5b-a418-4cbd-80f0-c7859222458e",
               "z": 3,
+              "hasOpenThreats": false,
               "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
                 "text": {
-                  "text": "actor 2"
+                  "text": "External Actor"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -112,8 +124,12 @@
               },
               "vertices": [
                 {
-                  "x": 322,
-                  "y": 65
+                  "x": 299,
+                  "y": 218
+                },
+                {
+                  "x": 355,
+                  "y": 73
                 }
               ],
               "id": "5b177697-dbec-46d2-a95f-e200933152dc",
