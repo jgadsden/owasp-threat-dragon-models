@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Simplest web app",
+    "owner": "me",
+    "description": "The simplest web app for testing threat / vulnerability generation"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "you"
+  }
+}
