@@ -14,7 +14,107 @@
       {
         "title": "Simple web app",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 461,
+                "y": 100
+              },
+              "angle": 0,
+              "id": "099f7d6d-bb33-4a24-bf01-6a8ebcdcc6f3",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 63,
+                "y": 120
+              },
+              "angle": 0,
+              "id": "7949a259-fefd-49a9-896a-6849e5002b91",
+              "z": 2,
+              "attrs": {
+                "text": {
+                  "text": "actor 1"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7949a259-fefd-49a9-896a-6849e5002b91"
+              },
+              "target": {
+                "id": "099f7d6d-bb33-4a24-bf01-6a8ebcdcc6f3"
+              },
+              "vertices": [],
+              "id": "7b155240-27f2-47ba-9fb3-b4c2fe71ee85",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 561,
+                "y": 33
+              },
+              "target": {
+                "x": 453,
+                "y": 300
+              },
+              "vertices": [
+                {
+                  "x": 397,
+                  "y": 89
+                }
+              ],
+              "id": "543e0a4a-e8fd-4c83-b2f3-35f65069860b",
+              "z": 4,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ],
     "reviewer": "you"
