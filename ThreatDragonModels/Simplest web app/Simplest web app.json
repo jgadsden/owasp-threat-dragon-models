@@ -5,8 +5,18 @@
     "description": "The simplest web app for testing threat / vulnerability generation"
   },
   "detail": {
-    "contributors": [],
-    "diagrams": [],
+    "contributors": [
+      {
+        "name": "contrib"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Simple web app",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
     "reviewer": "you"
   }
 }
