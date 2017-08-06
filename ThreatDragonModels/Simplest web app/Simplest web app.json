@@ -24,8 +24,8 @@
                 "height": 100
               },
               "position": {
-                "x": 461,
-                "y": 101
+                "x": 459,
+                "y": 100
               },
               "angle": 0,
               "id": "099f7d6d-bb33-4a24-bf01-6a8ebcdcc6f3",
@@ -36,7 +36,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 0"
+                  "text": "webApp"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -50,8 +50,8 @@
                 "height": 80
               },
               "position": {
-                "x": 62,
-                "y": 120
+                "x": 69,
+                "y": 123
               },
               "angle": 0,
               "id": "7949a259-fefd-49a9-896a-6849e5002b91",
@@ -62,7 +62,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 1"
+                  "text": "extActor"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -78,14 +78,19 @@
               "target": {
                 "id": "099f7d6d-bb33-4a24-bf01-6a8ebcdcc6f3"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 339,
+                  "y": 148
+                }
+              ],
               "id": "7b155240-27f2-47ba-9fb3-b4c2fe71ee85",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 2",
+                      "text": "infoFlow",
                       "font-weight": "400",
                       "font-size": "small"
                     }
