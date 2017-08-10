@@ -15,7 +15,7 @@
     ],
     "diagrams": [
       {
-        "title": "Minimal web application",
+        "title": "Web application -second page",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
