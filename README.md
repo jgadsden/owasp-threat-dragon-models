@@ -6,3 +6,7 @@ example threat models for the OWASP Threat Dragon project
 * The multi page threat model is used to test that multiple pages can be accessed properly
 
 The other threat models for comparison are Microsoft Threat Modelling Tool, cisco Threat Builder
+
+Two presentations associated with these threat models:
+* OWASP_introduction_threat_modeling.odp (about an hour long)
+* OWASP_short_introduction_threat_modeling.odp (about 30 minutes or less)
