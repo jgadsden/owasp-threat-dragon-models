@@ -2,7 +2,7 @@
   "summary": {
     "title": "Multi-page web application",
     "owner": "The owner",
-    "description": "Used to start testing mongoDB with multiple pages"
+    "description": "Used to start testing mongoDB with multiple pages\nand as a demonstration"
   },
   "detail": {
     "contributors": [
