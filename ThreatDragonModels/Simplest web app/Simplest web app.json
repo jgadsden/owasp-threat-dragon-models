@@ -13,7 +13,7 @@
     "diagrams": [
       {
         "title": "Simple web app",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "thumbnail": "./public/content/images/thumbnail.linddun.jpg",
         "id": 0,
         "diagramJson": {
           "cells": [
@@ -57,14 +57,6 @@
                   "description": "A generic repudiation threat"
                 },
                 {
-                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic information disclosure threat",
-                  "type": "Information disclosure",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic information disclosure threat"
-                },
-                {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
                   "title": "Generic DoS threat",
                   "type": "Denial of service",
@@ -79,6 +71,13 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "A generic elevation threat"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "LINDDUN",
+                  "type": "Disclosure of information",
+                  "title": "LINDDUN disclosure"
                 }
               ],
               "attrs": {
@@ -100,8 +99,8 @@
                 "height": 80
               },
               "position": {
-                "x": 69,
-                "y": 123
+                "x": 122,
+                "y": 181
               },
               "angle": 0,
               "id": "7949a259-fefd-49a9-896a-6849e5002b91",
@@ -123,6 +122,13 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "A generic repudiation threat"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "CIA",
+                  "type": "Integrity",
+                  "title": "CIA integrity"
                 }
               ],
               "attrs": {
@@ -139,6 +145,10 @@
             },
             {
               "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
               "smooth": true,
               "source": {
                 "id": "7949a259-fefd-49a9-896a-6849e5002b91"
@@ -178,6 +188,10 @@
             },
             {
               "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
               "smooth": true,
               "source": {
                 "x": 561,
@@ -202,7 +216,8 @@
         "size": {
           "height": 590,
           "width": 790
-        }
+        },
+        "diagramType": "LINDDUN"
       }
     ],
     "reviewer": "you"
